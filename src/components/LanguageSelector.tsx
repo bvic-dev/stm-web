@@ -1,0 +1,39 @@
+import { useTranslation } from "react-i18next";
+import { useEffect, useState } from "react";
+
+const LanguageSelector = () => {
+  const { i18n } = useTranslation();
+
+  const changeLanguage = (lng: string) => {
+    i18n.changeLanguage(lng);
+  };
+
+  return (
+    <div className="fixed top-4 right-4 flex items-center gap-2 bg-white dark:bg-gray-800 p-2 rounded-lg shadow-lg">
+      <div className="flex gap-1">
+        <button
+          onClick={() => changeLanguage("fr")}
+          className={`px-3 py-1 rounded-md transition-colors ${
+            i18n.language === "fr"
+              ? "bg-blue-500 text-white"
+              : "bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200"
+          }`}
+        >
+          FR
+        </button>
+        <button
+          onClick={() => changeLanguage("en")}
+          className={`px-3 py-1 rounded-md transition-colors ${
+            i18n.language === "en"
+              ? "bg-blue-500 text-white"
+              : "bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200"
+          }`}
+        >
+          EN
+        </button>
+      </div>
+    </div>
+  );
+};
+
+export default LanguageSelector;

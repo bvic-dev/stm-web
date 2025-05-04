@@ -1,0 +1,271 @@
+{
+  "home": {
+    "title": "Sport Track Merger",
+    "subtitle": "Merge your Strava activities with ease",
+    "download_android": "Get it on Google Play",
+    "download_ios": "Download on the App Store"
+  },
+  "legal": {
+    "cgu": "Terms of Use",
+    "cgv": "Terms of Sale",
+    "policy": "Privacy Policy"
+  },
+  "cgu": {
+    "title": "Terms of Use (CGU)",
+    "last_update": "Last update: 2025-05-03",
+    "sections": [
+      {
+        "title": "1. Legal Information",
+        "content": [
+          "Sport Track Merger is an independent app and is not affiliated with or sponsored by Strava Inc.",
+          "The app is published by:",
+          "Bily Victorien",
+          "Independent developer – Sole proprietorship",
+          "34 Rue Bugeaud, 29200 Brest, France",
+          "✉️ Contact: b.vic.dev@gmail.com"
+        ]
+      },
+      {
+        "title": "2. App Description",
+        "content": [
+          "Sport Track Merger is a mobile app for Android and iOS, designed for Strava users who want to merge or duplicate their activities. It allows you to merge or duplicate your existing Strava activities and send the new one directly to your account.",
+          "The app notably enables:",
+          "- Merging consecutive activities in time, for example in case of interruption or segmentation of an outing due to a GPS or technical error",
+          "- Merging temporally overlapping activities, such as an activity containing GPS data with another containing complementary data like heart rate, power, cadence, or altitude",
+          "- Duplicating activities with possible date and time modification",
+          "- Directly generating a new merged or duplicated activity on Strava",
+          "- Supporting outdoor and indoor activities in the context of merging or duplicating operations",
+          "- For Pro version users: full editing of the new activity's data (title, description, activity type, device used, and movement status)",
+          "The app is available in French, English, and may be translated into other languages in the future based on user needs."
+        ]
+      },
+      {
+        "title": "3. Access and Use Conditions",
+        "content": [
+          "Access to the app requires an active Strava account. Upon first use, the user is prompted to authorize access to their Strava data via the official authentication system.",
+          "Data accessed may include: Strava ID, public activities, and associated metrics (distance, duration, altitude, heart rate, power, GPS track, etc.).",
+          "The app cannot be used without valid Strava account authorization. Users can revoke this access at any time via the dedicated page on Strava: https://www.strava.com/settings/apps"
+        ]
+      },
+      {
+        "title": "4. Pro Version Access Terms",
+        "content": [
+          "The app uses a freemium model. All purchases are processed via the official Google Play and Apple App Store platforms, which handle billing and any refund requests according to their own terms:",
+          "Free version:",
+          "- Merge limited to 2 activities",
+          "- Maximum 2 merges per day",
+          "- No customization of the new activity (title, description, type, etc.)",
+          "Pro version (one-time purchase):",
+          "- Unlimited merges",
+          "- Full editing of the created activity's fields (title, description, etc.)",
+          "- Access to all advanced features",
+          "- Priority user support",
+          "The Pro version is linked to the user and is therefore accessible on any device (Android or iOS) where the user is logged in with the same account.",
+          "A one-month free trial is offered before any final purchase."
+        ]
+      },
+      {
+        "title": "5. User Responsibilities",
+        "content": [
+          "The user agrees to use the app in compliance with applicable laws and Strava's terms of use. They are solely responsible for activities generated or duplicated via the app and their publication in their personal Strava space."
+        ]
+      },
+      {
+        "title": "6. Publisher Responsibilities",
+        "content": [
+          "The app is provided \"as is\", without guarantee of continuous or error-free operation. The publisher cannot be held responsible:",
+          "- For service interruption",
+          "- For technical incompatibilities",
+          "- For the deletion or modification of the Strava API",
+          "In case of deletion or inaccessibility of the Strava API, the app may cease to function, without entitling users to any compensation or refund, even partial, for Pro version users."
+        ]
+      },
+      {
+        "title": "7. Sanctions for Non-Compliance",
+        "content": [
+          "In case of abusive, fraudulent, or non-compliant use, the publisher reserves the right to restrict or block access to the app, temporarily or permanently."
+        ]
+      },
+      {
+        "title": "8. Intellectual Property",
+        "content": [
+          "All content in the app, including source code, visuals, texts, and trademarks, is protected by intellectual property law. Any unauthorized reproduction or use is strictly prohibited."
+        ]
+      },
+      {
+        "title": "9. Governing Law",
+        "content": [
+          "These Terms of Use are governed by French law. In case of dispute, the competent courts will be those of Brest (France)."
+        ]
+      },
+      {
+        "title": "10. Personal Data Protection",
+        "content": [
+          "For more information on the collection, use, and retention of your personal data, please see our Privacy Policy"
+        ]
+      },
+      {
+        "title": "11. Changes to the Terms",
+        "content": [
+          "The publisher reserves the right to modify these Terms at any time. Any substantial modification may be notified within the app or via the official website. Users are invited to regularly consult the latest version."
+        ]
+      }
+    ]
+  },
+  "cgv": {
+    "title": "Terms of Sale (CGV)",
+    "last_update": "Last update: 2025-05-03",
+    "sections": [
+      {
+        "title": "1. Legal Information",
+        "content": [
+          "The Sport Track Merger app is published by:",
+          "Bily Victorien",
+          "Independent developer – Sole proprietorship",
+          "34 Rue Bugeaud, 29200 Brest, France",
+          "✉️ Contact: b.vic.dev@gmail.com"
+        ]
+      },
+      {
+        "title": "2. Purpose",
+        "content": [
+          "These Terms of Sale govern the terms of sale for the Pro version of the Sport Track Merger mobile app.",
+          "This Pro version provides access to advanced features (unlimited merges, full customization, priority support, etc.) via a one-time lifetime purchase."
+        ]
+      },
+      {
+        "title": "3. Price and Taxes",
+        "content": [
+          "The price of the Pro version is indicated in euros or the local currency depending on the country of residence, all taxes included (TTC). The price may change at any time, with no effect on previous purchases."
+        ]
+      },
+      {
+        "title": "4. Payment Platforms",
+        "content": [
+          "Purchases are made exclusively via the official Google Play Store and Apple App Store platforms. Payment, billing, and refunds are managed by these platforms, according to their own terms.",
+          "No payment is handled directly by the app publisher."
+        ]
+      },
+      {
+        "title": "5. Right of Withdrawal",
+        "content": [
+          "In accordance with article L221-28 of the French Consumer Code, the user expressly waives their right of withdrawal by accessing the digital content immediately after purchase, with their prior consent.",
+          "Thus, no refund is possible once the purchase is confirmed and the Pro version is activated."
+        ]
+      },
+      {
+        "title": "6. Availability",
+        "content": [
+          "The Pro version is unlocked immediately after purchase, on the user's device. It is linked to the user's Strava account (via a hashed ID), allowing it to be restored on any device logged in with the same Strava account."
+        ]
+      },
+      {
+        "title": "7. Strava Dependency",
+        "content": [
+          "Sport Track Merger relies on the use of the Strava API. If access to Strava data is modified, restricted, or removed by the API publisher, some features may become partially or totally inaccessible.",
+          "In this case, no compensation or refund will be granted."
+        ]
+      },
+      {
+        "title": "8. Customer Support",
+        "content": [
+          "For any questions regarding a purchase, you can contact the developer at: b.vic.dev@gmail.com"
+        ]
+      },
+      {
+        "title": "9. Governing Law",
+        "content": [
+          "These Terms of Sale are governed by French law. In case of dispute, the competent courts will be those of Brest (France)."
+        ]
+      }
+    ]
+  },
+  "policy": {
+    "title": "Privacy Policy",
+    "last_update": "Last update: 2025-05-03",
+    "sections": [
+      {
+        "title": "1. Data Controller",
+        "content": [
+          "The processing of personal data is carried out by:",
+          "Bily Victorien",
+          "Independent developer – Sole proprietorship",
+          "34 Rue Bugeaud, 29200 Brest, France",
+          "✉️ Contact: b.vic.dev@gmail.com"
+        ]
+      },
+      {
+        "title": "2. Data Collected and Purposes",
+        "content": [
+          "The Sport Track Merger app does not collect any personally identifiable data from the user.",
+          "Data from the Strava API (public or private activities, metrics, user ID) is only stored locally on the user's phone to enable merging or duplicating activities. None of this data is sent to a third-party server or retained by the publisher.",
+          "Merged or duplicated activities are created locally, then sent directly to Strava. Generated files are automatically deleted from the device after sending.",
+          "Anonymous data collected:",
+          "- Errors and crashes (via Firebase Crashlytics): automatic collection, cannot be disabled",
+          "- User actions and performance (via Firebase Analytics & Performance): can be enabled/disabled in the app settings",
+          "- Hashed Strava ID (irreversible), used to associate a Pro license with a user account",
+          "Secure authentication to Strava is managed via a Firebase Cloud Function to protect the app's API keys. No personal data is processed there."
+        ]
+      },
+      {
+        "title": "3. Legal Basis for Processing",
+        "content": [
+          "Processing carried out in the app is based on:",
+          "- The contract binding the user to the app for access to Strava features",
+          "- The user's consent for usage tracking (Firebase Analytics), which can be enabled or disabled in the settings"
+        ]
+      },
+      {
+        "title": "4. Data Retention",
+        "content": [
+          "The publisher does not retain any personal data on its own servers. Only anonymous technical data (crashes, performance, usage) is stored on Firebase servers, according to their retention policies.",
+          "Activity files are generated locally and automatically deleted after use."
+        ]
+      },
+      {
+        "title": "5. Distribution Platforms",
+        "content": [
+          "Sport Track Merger is distributed via the Google Play Store (Google Ireland Ltd.) and the Apple App Store (Apple Inc.). These platforms may collect certain usage and diagnostic data related to the installation, use, or performance of the app.",
+          "This data is collected by Google or Apple for analysis purposes, based on the user's consent given in their device settings. The publisher only has access to anonymous and aggregated information, with no personal identification.",
+          "For more information:",
+          "- Google Play – Privacy settings: https://support.google.com/accounts/answer/3118621",
+          "- Apple – Privacy and settings: https://support.apple.com/en-us/HT202100"
+        ]
+      },
+      {
+        "title": "6. Third-Party Providers and Transfers Outside the EU",
+        "content": [
+          "The app uses the following services:",
+          "- Firebase (Google) for technical data collection",
+          "- RevenueCat for In-App purchase management",
+          "These providers may process some data outside the European Union. They have standard contractual clauses and compliance measures with the General Data Protection Regulation (GDPR)."
+        ]
+      },
+      {
+        "title": "7. User Rights",
+        "content": [
+          "In accordance with the GDPR, the user has the following rights:",
+          "- Access, rectification, and deletion of local data by uninstalling the app or logging out of their account",
+          "- Ability to revoke Strava access via https://www.strava.com/settings/apps",
+          "- Right to object to analytics collection via the app settings",
+          "- Right to contact the controller at: b.vic.dev@gmail.com"
+        ]
+      },
+      {
+        "title": "8. Target Audience",
+        "content": [
+          "The app is reserved for users eligible for a Strava account, i.e., persons at least 13 years old or the minimum required age in their country of residence."
+        ]
+      },
+      {
+        "title": "9. Policy Updates",
+        "content": [
+          "This privacy policy may be changed at any time. Any updated version will be published on the app's dedicated page or the official website. Users are encouraged to review it regularly."
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© {{year}} Sport Track Merger — All rights reserved."
+  }
+}
