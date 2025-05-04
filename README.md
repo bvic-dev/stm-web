@@ -1,12 +1,36 @@
-# React + Vite
+# Sport Track Merger (Web)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the landing page and legal interface for **Sport Track Merger**, a mobile application that helps Strava users merge, duplicate, and fix their activities.
 
-Currently, two official plugins are available:
+## 🌐 Live
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Visit: [https://sporttrackmerger.com](https://sporttrackmerger.com)
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✨ Landing page with multilingual support (FR / EN)
+- 📲 Download links for Play Store and App Store
+- 📄 Dynamic legal pages (CGU, CGV, Privacy) with shared layout
+- 🌍 Language selector based on browser or localStorage
+- 🎯 Firebase Analytics tracking (page views, download events)
+- 🌙 Dark mode and responsive layout via Tailwind CSS
+- ⚙️ Vite + React 19 + TypeScript setup
+
+## 📁 Tech Stack
+
+- React 19 + Vite
+- Tailwind CSS 4
+- React Router DOM 7
+- i18next for internationalization
+- Firebase Analytics (optional, anonymous)
+
+## 📦 Dev setup
+
+```bash
+npm install
+npm run dev
+```
+
+## 📄 License
+
+© Victorien Bily — All rights reserved.
