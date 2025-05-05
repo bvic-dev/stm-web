@@ -31,12 +31,12 @@ const Home = () => {
   const badgeApp = isFr ? badgeAppFr : badgeAppEn;
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center px-4 pt-20 pb-16 bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100">
+    <div className="min-h-screen flex flex-col items-center justify-center px-4 pt-20 pb-16 text-gray-900 dark:text-gray-100">
       <div className="max-w-3xl w-full flex flex-col items-center space-y-10">
         <img
           src={logo}
           alt="Sport Track Merger Logo"
-          className="w-32 h-32 rounded-2xl shadow-lg bg-white dark:bg-gray-900"
+          className="w-32 h-32 rounded-2xl shadow-lg"
         />
 
         <h1 className="text-4xl font-bold text-center text-balance text-gray-900 dark:text-white">

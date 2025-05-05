@@ -42,7 +42,7 @@ const LegalPage = ({
   ].filter((link) => link.path !== location.pathname);
 
   return (
-    <div className="min-h-screen flex flex-col justify-between bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen flex flex-col justify-between text-gray-900 dark:text-gray-100 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-3xl mx-auto">
         <h1 className="text-3xl font-bold mb-8 text-center text-gray-900 dark:text-white">
           {t(titleKey)}
