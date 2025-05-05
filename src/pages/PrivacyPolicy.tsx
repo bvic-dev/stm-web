@@ -4,8 +4,8 @@ import LegalPage from "../components/LegalPage";
 export default () => (
   <LegalPage
     pageTitle="Privacy Policy"
-    titleKey="policy.title"
-    lastUpdateKey="policy.last_update"
-    sectionsKey="policy.sections"
+    titleKey="privacy.title"
+    lastUpdateKey="privacy.last_update"
+    sectionsKey="privacy.sections"
   />
 );

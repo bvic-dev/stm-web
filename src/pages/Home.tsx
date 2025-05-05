@@ -98,10 +98,10 @@ const Home = () => {
           </a>
           <span className="hidden sm:inline">•</span>
           <a
-            href="/policy"
+            href="/privacy"
             className="hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
           >
-            {t("legal.policy")}
+            {t("legal.privacy")}
           </a>
         </div>
       </div>

@@ -8,7 +8,7 @@
   "legal": {
     "cgu": "Terms of Use",
     "cgv": "Terms of Sale",
-    "policy": "Privacy Policy"
+    "privacy": "Privacy Policy"
   },
   "cgu": {
     "title": "Terms of Use (CGU)",
@@ -22,7 +22,7 @@
           "Bily Victorien",
           "Independent developer – Sole proprietorship",
           "34 Rue Bugeaud, 29200 Brest, France",
-          "✉️ Contact: b.vic.dev@gmail.com"
+          "✉️ Contact: [b.vic.dev@gmail.com](mailto:b.vic.dev@gmail.com)"
         ]
       },
       {
@@ -44,7 +44,7 @@
         "content": [
           "Access to the app requires an active Strava account. Upon first use, the user is prompted to authorize access to their Strava data via the official authentication system.",
           "Data accessed may include: Strava ID, public activities, and associated metrics (distance, duration, altitude, heart rate, power, GPS track, etc.).",
-          "The app cannot be used without valid Strava account authorization. Users can revoke this access at any time via the dedicated page on Strava: https://www.strava.com/settings/apps"
+          "The app cannot be used without valid Strava account authorization. Users can revoke this access at any time via the [dedicated page](https://www.strava.com/settings/apps) on Strava"
         ]
       },
       {
@@ -123,7 +123,7 @@
           "Bily Victorien",
           "Independent developer – Sole proprietorship",
           "34 Rue Bugeaud, 29200 Brest, France",
-          "✉️ Contact: b.vic.dev@gmail.com"
+          "✉️ Contact: [b.vic.dev@gmail.com](mailto:b.vic.dev@gmail.com)"
         ]
       },
       {
@@ -169,7 +169,7 @@
       {
         "title": "8. Customer Support",
         "content": [
-          "For any questions regarding a purchase, you can contact the developer at: b.vic.dev@gmail.com"
+          "For any questions regarding a purchase, you can contact the developer at: [b.vic.dev@gmail.com](mailto:b.vic.dev@gmail.com)"
         ]
       },
       {
@@ -180,7 +180,7 @@
       }
     ]
   },
-  "policy": {
+  "privacy": {
     "title": "Privacy Policy",
     "last_update": "Last update: 2025-05-03",
     "sections": [
@@ -191,7 +191,7 @@
           "Bily Victorien",
           "Independent developer – Sole proprietorship",
           "34 Rue Bugeaud, 29200 Brest, France",
-          "✉️ Contact: b.vic.dev@gmail.com"
+          "✉️ Contact: [b.vic.dev@gmail.com](mailto:b.vic.dev@gmail.com)"
         ]
       },
       {
@@ -228,16 +228,16 @@
           "Sport Track Merger is distributed via the Google Play Store (Google Ireland Ltd.) and the Apple App Store (Apple Inc.). These platforms may collect certain usage and diagnostic data related to the installation, use, or performance of the app.",
           "This data is collected by Google or Apple for analysis purposes, based on the user's consent given in their device settings. The publisher only has access to anonymous and aggregated information, with no personal identification.",
           "For more information:",
-          "- Google Play – Privacy settings: https://support.google.com/accounts/answer/3118621",
-          "- Apple – Privacy and settings: https://support.apple.com/en-us/HT202100"
+          "- [Google Play – Privacy settings](https://support.google.com/accounts/answer/3118621)",
+          "- [Apple – Privacy and settings](https://support.apple.com/en-us/HT202100)"
         ]
       },
       {
         "title": "6. Third-Party Providers and Transfers Outside the EU",
         "content": [
           "The app uses the following services:",
-          "- Firebase (Google) for technical data collection",
-          "- RevenueCat for In-App purchase management",
+          "- Firebase (Google) for technical data collection (crashes, performance, analytics)",
+          "- RevenueCat for managing in-app purchases. An anonymous identifier (generated from the Strava ID in a non-reversible way) is used solely to associate in-app purchases with a user. No personally identifiable data is shared with RevenueCat.",
           "These providers may process some data outside the European Union. They have standard contractual clauses and compliance measures with the General Data Protection Regulation (GDPR)."
         ]
       },
@@ -246,9 +246,9 @@
         "content": [
           "In accordance with the GDPR, the user has the following rights:",
           "- Access, rectification, and deletion of local data by uninstalling the app or logging out of their account",
-          "- Ability to revoke Strava access via https://www.strava.com/settings/apps",
+          "- Ability to revoke Strava access via the [dedicated page](https://www.strava.com/settings/apps)",
           "- Right to object to analytics collection via the app settings",
-          "- Right to contact the controller at: b.vic.dev@gmail.com"
+          "- Right to contact the controller at: [b.vic.dev@gmail.com](mailto:b.vic.dev@gmail.com)"
         ]
       },
       {

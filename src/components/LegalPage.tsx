@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { analytics } from "../firebase";
 import { logEvent } from "firebase/analytics";
 import { useTranslation } from "react-i18next";
-import { linkify } from "../utils/linkify";
+import { parseMarkdownLinks } from "../utils/parseMarkdownLinks";
 import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
 
@@ -38,7 +38,7 @@ const LegalPage = ({
   const links = [
     { path: "/cgu", label: t("legal.cgu") },
     { path: "/cgv", label: t("legal.cgv") },
-    { path: "/policy", label: t("legal.policy") },
+    { path: "/privacy", label: t("legal.privacy") },
   ].filter((link) => link.path !== location.pathname);
 
   return (
@@ -61,7 +61,7 @@ const LegalPage = ({
                   key={i}
                   className="mb-4 last:mb-0 leading-relaxed text-gray-800 dark:text-gray-200"
                 >
-                  {linkify(p)}
+                  {parseMarkdownLinks(p)}
                 </p>
               ))}
             </section>

@@ -8,7 +8,7 @@
   "legal": {
     "cgu": "Conditions Générales d'Utilisation",
     "cgv": "Conditions Générales de Vente",
-    "policy": "Politique de confidentialité"
+    "privacy": "Politique de confidentialité"
   },
   "cgu": {
     "title": "Conditions Générales d'Utilisation (CGU)",
@@ -22,7 +22,7 @@
           "Bily Victorien",
           "Développeur indépendant – Micro-entreprise",
           "34 Rue Bugeaud, 29200 Brest, France",
-          "✉️ Contact : b.vic.dev@gmail.com"
+          "✉️ Contact : [b.vic.dev@gmail.com](mailto:b.vic.dev@gmail.com)"
         ]
       },
       {
@@ -44,7 +44,7 @@
         "content": [
           "L'accès à l'application suppose la possession d'un compte Strava actif. Lors de la première utilisation, l'utilisateur est invité à autoriser l'accès à ses données Strava via le système d'authentification officiel.",
           "Les données consultées peuvent inclure : l'identifiant Strava, les activités publiques, ainsi que les métriques associées (distance, durée, altitude, fréquence cardiaque, puissance, tracé GPS, etc.).",
-          "L'application ne peut être utilisée sans autorisation d'accès à un compte Strava valide. Les utilisateurs peuvent révoquer à tout moment cet accès via la page dédiée sur Strava : https://www.strava.com/settings/apps"
+          "L'application ne peut être utilisée sans autorisation d'accès à un compte Strava valide. Les utilisateurs peuvent révoquer à tout moment cet accès via la [page dédiée](https://www.strava.com/settings/apps) sur Strava "
         ]
       },
       {
@@ -123,7 +123,7 @@
           "Bily Victorien",
           "Développeur indépendant – Micro-entreprise",
           "34 Rue Bugeaud, 29200 Brest, France",
-          "✉️ Contact : b.vic.dev@gmail.com"
+          "✉️ Contact : [b.vic.dev@gmail.com](mailto:b.vic.dev@gmail.com)"
         ]
       },
       {
@@ -169,7 +169,7 @@
       {
         "title": "8. Support client",
         "content": [
-          "Pour toute question relative à un achat, vous pouvez contacter le développeur à l'adresse suivante : b.vic.dev@gmail.com"
+          "Pour toute question relative à un achat, vous pouvez contacter le développeur à l'adresse suivante : [b.vic.dev@gmail.com](mailto:b.vic.dev@gmail.com)"
         ]
       },
       {
@@ -180,7 +180,7 @@
       }
     ]
   },
-  "policy": {
+  "privacy": {
     "title": "Politique de Confidentialité",
     "last_update": "Dernière mise à jour : 03/05/2025",
     "sections": [
@@ -191,7 +191,7 @@
           "Bily Victorien",
           "Développeur indépendant – Micro-entreprise",
           "34 Rue Bugeaud, 29200 Brest, France",
-          "✉️ Contact : b.vic.dev@gmail.com"
+          "✉️ Contact : [b.vic.dev@gmail.com](mailto:b.vic.dev@gmail.com)"
         ]
       },
       {
@@ -228,16 +228,16 @@
           "Sport Track Merger est distribuée via le Google Play Store (Google Ireland Ltd.) et l'Apple App Store (Apple Inc.). Ces plateformes peuvent collecter certaines données d'utilisation et de diagnostic liées à l'installation, l'utilisation ou la performance de l'application.",
           "Ces données sont collectées par Google ou Apple à des fins d'analyse, sur la base du consentement de l'utilisateur donné dans les paramètres de son appareil. L'éditeur n'a accès qu'à des informations anonymes et agrégées, sans identification personnelle.",
           "Pour plus d'informations :",
-          "- Google Play – Paramètres de confidentialité : https://support.google.com/accounts/answer/3118621",
-          "- Apple – Confidentialité et réglages : https://support.apple.com/fr-fr/HT202100"
+          "- [Google Play – Paramètres de confidentialité](https://support.google.com/accounts/answer/3118621)",
+          "- [Apple – Confidentialité et réglages](https://support.apple.com/fr-fr/HT202100)"
         ]
       },
       {
         "title": "6. Prestataires tiers et transfert hors UE",
         "content": [
           "L'application utilise les services suivants :",
-          "- Firebase (Google) pour la collecte de données techniques",
-          "- RevenueCat pour la gestion des achats In-App",
+          "- Firebase (Google) pour la collecte de données techniques (crashs, performances, analytics)",
+          "- RevenueCat pour la gestion des achats In-App. Un identifiant anonyme (généré à partir de l'identifiant Strava, de façon non réversible) est utilisé pour associer un achat à un utilisateur. Aucune donnée personnelle identifiable n'est transmise à RevenueCat.",
           "Ces prestataires peuvent traiter certaines données en dehors de l'Union Européenne. Ils disposent de clauses contractuelles types et mesures de conformité avec le Règlement Général sur la Protection des Données (RGPD)."
         ]
       },
@@ -246,9 +246,9 @@
         "content": [
           "Conformément au RGPD, l'utilisateur dispose des droits suivants :",
           "- Accès, rectification et suppression des données locales via la suppression de l'application ou la déconnexion de son compte",
-          "- Possibilité de révoquer l'accès Strava via https://www.strava.com/settings/apps",
+          "- Possibilité de révoquer l'accès Strava depuis la [page dédiée](https://www.strava.com/settings/apps)",
           "- Droit d'opposition à la collecte d'analytics via les réglages de l'app",
-          "- Droit de contacter le responsable à l'adresse suivante : b.vic.dev@gmail.com"
+          "- Droit de contacter le responsable à l'adresse suivante : [b.vic.dev@gmail.com](mailto:b.vic.dev@gmail.com)"
         ]
       },
       {
