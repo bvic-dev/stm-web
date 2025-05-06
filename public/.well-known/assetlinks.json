@@ -1,0 +1,27 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.bvic.sporttrackmerger",
+            "sha256_cert_fingerprints": [
+                "46:76:CF:D7:9D:FA:AE:E7:26:22:42:2B:72:34:98:10:7F:EF:50:E0:88:BA:84:B4:2B:6E:DC:26:9D:50:3E:4B",
+                "5E:B1:7C:96:65:C4:CE:16:66:5C:E5:E5:5F:11:0A:66:41:B5:0D:74:48:0D:39:60:30:5E:93:B3:1C:C5:D7:69"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.bvic.sporttrackmerger.debug",
+            "sha256_cert_fingerprints": [
+                "B8:9E:63:84:16:D3:EF:EE:06:A0:5E:14:FE:FC:5B:57:AB:53:74:80:13:7C:91:AF:E6:C7:12:40:DA:A0:9B:EE"
+            ]
+        }
+    }
+]
