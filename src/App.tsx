@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import CGU from "./pages/CGU";
 import CGV from "./pages/CGV";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import StravaCallbackInfoPage from "./pages/StravaCallbackInfoPage";
 import LanguageSelector from "./components/LanguageSelector";
 import GlobalFooter from "./components/GlobalFooter";
 
@@ -17,6 +18,7 @@ function App() {
             <Route path="/cgu" element={<CGU />} />
             <Route path="/cgv" element={<CGV />} />
             <Route path="/privacy" element={<PrivacyPolicy />} />
+            <Route path="/auth/strava/callback" element={<StravaCallbackInfoPage />} />
           </Routes>
         </main>
         <GlobalFooter />
