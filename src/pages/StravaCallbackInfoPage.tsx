@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 import StoreBadges from '../components/StoreBadges';
+import RetryDeepLinkButton from '../components/RetryDeepLinkButton';
 import { logEvent } from "firebase/analytics";
 import { analytics } from "../firebase";
 import { useEffect } from "react";
@@ -46,6 +47,7 @@ const StravaCallbackInfoPage = () => {
             {t('stravaCallback.reason1Text')}
           </p>
           <StoreBadges className="flex flex-wrap justify-center mb-2" logoSize="small" />
+          <RetryDeepLinkButton />
         </section>
 
         {/* Colonne droite */}

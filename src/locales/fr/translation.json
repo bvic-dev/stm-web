@@ -269,11 +269,6 @@
     "copyright": "© {{year}} Sport Track Merger — Tous droits réservés."
   },
   "stravaCallback": {
-    "title": "Vous ne devriez pas voir cette page...",
-    "noAppInstalled": "Cette page est normalement ouverte automatiquement par l'application Sport Track Merger après votre connexion à Strava.",
-    "notOpening": "Si vous voyez cette page, cela signifie généralement que :",
-    "reason1": "• L'application n'est pas installée sur votre appareil",
-    "reason2": "• Ou que votre appareil n'ouvre pas automatiquement les liens avec l'application",
     "howToFix": "Pour résoudre cela :",
     "step1": "Vérifiez que l'application est bien installée.",
     "step2": "Allez dans : Paramètres > Applications > Sport Track Merger > Ouvrir par défaut > Ajouter un lien > Activez www.sporttrackmerger.com",
@@ -284,6 +279,8 @@
     "reason1Title": "📱 L'application n'est pas installée",
     "reason1Text": "C'est souvent la raison la plus simple. Pour ouvrir automatiquement cette page dans l'application, assurez-vous qu'elle est installée sur votre appareil.",
     "reason2Title": "⚙️ Les liens ne s'ouvrent pas dans l'application",
-    "reason2Text": "Même si l'app est installée, il est possible que votre appareil ne reconnaisse pas encore les liens comme devant être ouverts avec Sport Track Merger."
+    "reason2Text": "Même si l'app est installée, il est possible que votre appareil ne reconnaisse pas encore les liens comme devant être ouverts avec Sport Track Merger.",
+    "retryButton": "Réessayer d'ouvrir l'application",
+    "retryError": "Impossible d'ouvrir l'application. Veuillez vérifier votre installation."
   }
 }
