@@ -5,7 +5,7 @@ import { logEvent } from "firebase/analytics";
 import { analytics } from "../firebase";
 import { useEffect } from "react";
 import screenshotFr from '../assets/auth-callback/screenshot-strava-callback-fr.png';
-import screenshotEn from  '../assets/auth-callback/screenshot-strava-callback-en.png';
+import screenshotEn from '../assets/auth-callback/screenshot-strava-callback-en.png';
 
 const StravaCallbackInfoPage = () => {
   const { t, i18n } = useTranslation();
@@ -86,39 +86,41 @@ const StravaCallbackInfoPage = () => {
         </section>
       </div>
 
-      {/* Lightbox centrée, bouton à côté de l'image, titre en dessous */}
       {showLightbox && (
         <div
           className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm"
           onClick={() => setShowLightbox(false)}
         >
           <div
-            className="relative flex flex-col items-center justify-center"
-            onClick={e => e.stopPropagation()}
+            className="relative"
+            onClick={(e) => e.stopPropagation()}
           >
-            <div className="flex items-start justify-center w-full">
+            {/* Conteneur image + texte limité à la taille de l’image */}
+            <div className="relative max-w-[500px] w-full">
               <img
                 src={screenshot}
                 alt={t('stravaCallback.screenshotCaption')}
-                className="object-contain max-h-[90vh] max-w-[95vw] h-auto w-auto mx-auto rounded-lg shadow-2xl"
+                className="max-h-[90vh] w-full h-auto object-contain rounded-lg shadow-2xl"
               />
               <button
-                className="ml-4 mt-2 text-white bg-black/60 rounded-full p-2 hover:bg-black/80 transition self-start"
+                className="absolute top-2 right-2 text-white bg-black/60 rounded-full p-2 hover:bg-black/80 transition"
                 onClick={() => setShowLightbox(false)}
                 aria-label="Fermer"
-                style={{ position: 'static' }}
               >
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
                 </svg>
               </button>
             </div>
-            <p className="mt-3 text-sm text-gray-200 text-center italic w-full">
+
+            {/* ✅ Texte centré et limité à la même largeur que l'image */}
+            <p className="mt-3 text-sm text-gray-200 text-center italic max-w-[95vw] mx-auto">
               {t('stravaCallback.screenshotCaption')}
             </p>
           </div>
         </div>
       )}
+
     </div>
   );
 };

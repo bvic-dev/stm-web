@@ -9,7 +9,7 @@ const LanguageSelector = () => {
   };
 
   return (
-    <div className="fixed top-4 right-4 flex items-center gap-2 bg-white dark:bg-gray-800 p-2 rounded-lg shadow-lg">
+    <div className="flex items-center gap-2 bg-white dark:bg-gray-800 p-2 rounded-lg shadow-lg">
       <div className="flex gap-1">
         <button
           onClick={() => changeLanguage("fr")}

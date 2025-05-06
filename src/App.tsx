@@ -4,14 +4,14 @@ import CGU from "./pages/CGU";
 import CGV from "./pages/CGV";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import StravaCallbackInfoPage from "./pages/StravaCallbackInfoPage";
-import LanguageSelector from "./components/LanguageSelector";
+import Header from "./components/Header";
 import GlobalFooter from "./components/GlobalFooter";
 
 function App() {
   return (
     <Router>
       <div className="App flex flex-col min-h-screen">
-        <LanguageSelector />
+        <Header />
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
