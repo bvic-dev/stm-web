@@ -1,0 +1,19 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "G6SP662S6S.com.bvic.sporttrackmerger",
+                "paths": [
+                    "/auth/strava/callback"
+                ]
+            },
+            {
+                "appID": "G6SP662S6S.com.bvic.sporttrackmerger.debug",
+                "paths": [
+                    "/auth/strava/callback"
+                ]
+            }
+        ]
+    }
+}
