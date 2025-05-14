@@ -4,6 +4,7 @@ import CGU from "@/pages/CGU";
 import CGV from "@/pages/CGV";
 import PrivacyPolicy from "@/pages/PrivacyPolicy";
 import StravaCallbackInfoPage from "@/pages/StravaCallbackInfoPage";
+import ContactPage from "@/pages/ContactPage";
 import Header from "@/components/Header";
 import GlobalFooter from "@/components/GlobalFooter";
 import CookieConsent from "@/components/CookieConsent";
@@ -21,6 +22,7 @@ function App() {
             <Route path="/cgu" element={<CGU />} />
             <Route path="/cgv" element={<CGV />} />
             <Route path="/privacy" element={<PrivacyPolicy />} />
+            <Route path="/contact" element={<ContactPage />} />
             <Route path="/auth/strava/callback" element={<StravaCallbackInfoPage />} />
           </Routes>
         </main>

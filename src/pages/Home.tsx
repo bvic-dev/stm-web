@@ -57,7 +57,6 @@ const Home = () => {
             onPlayClick={() => trackDownloadClick('android')}
             onAppClick={() => trackDownloadClick('ios')}
           />
-
           <div className="flex flex-wrap justify-center items-center gap-x-4 gap-y-2 text-sm text-gray-600 dark:text-gray-400">
             <a
               href="/cgu"
@@ -78,6 +77,13 @@ const Home = () => {
               className="hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
             >
               {t("legal.privacy")}
+            </a>
+            <span className="hidden sm:inline">•</span>
+            <a
+              href="/contact"
+              className="hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
+            >
+              {t("contact.title")}
             </a>
           </div>
         </div>

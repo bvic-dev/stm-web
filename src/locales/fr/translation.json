@@ -293,5 +293,13 @@
     "footerLink": "Gérer mes cookies",
     "moreInfoTitle": "Politique de confidentialité et cookies",
     "moreInfoText": "Nous utilisons uniquement des cookies de mesure d’audience (Google/Firebase Analytics) pour améliorer le site et comprendre son utilisation. Aucune donnée personnelle n’est utilisée à des fins publicitaires ou partagée avec des tiers. Vous pouvez à tout moment modifier votre choix en cliquant sur « Gérer mes cookies » en bas de page."
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "description": "Si vous rencontrez des problèmes avec l'application ou si vous avez des questions, n'hésitez pas à nous contacter.",
+    "email": "Email",
+    "emailText": "Envoyez-nous un email à",
+    "discord": "Rejoignez notre communauté Discord",
+    "discordText": "Discutez avec d'autres utilisateurs et recevez de l'aide en temps réel"
   }
 }

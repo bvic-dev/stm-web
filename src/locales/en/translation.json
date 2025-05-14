@@ -292,6 +292,15 @@
     "manage": "Manage my cookies",
     "footerLink": "Manage my cookies",
     "moreInfoTitle": "Privacy and Cookie Policy",
-    "moreInfoText": "We only use audience measurement cookies (Google/Firebase Analytics) to improve the site and understand its usage. No personal data is used for advertising or shared with third parties. You can change your choice at any time by clicking 'Manage my cookies' at the bottom of the page."
+    "moreInfoText": "We only use audience measurement cookies (Google/Firebase Analytics) to improve the site and understand its usage. No personal data is used for advertising or shared with third parties. You can change your choice at any time by clicking 'Manage my cookies' at the bottom of the page.",
+    "retryError": "Unable to open the app. Please check if it's installed."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "If you're experiencing issues with the app or have any questions, feel free to reach out to us.",
+    "email": "Email",
+    "emailText": "Send us an email at",
+    "discord": "Join our Discord community",
+    "discordText": "Chat with other users and get real-time help"
   }
 }
