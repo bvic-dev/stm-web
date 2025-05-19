@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import { parseMarkdownLinks } from "../utils/parseMarkdownLinks";
 import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
+import logo from "../assets/Logo-rounded.svg";
 
 export type LegalPageProps = {
   titleKey: string;
@@ -44,6 +45,16 @@ const LegalPage = ({
   return (
     <div className="min-h-screen flex flex-col justify-between text-gray-900 dark:text-gray-100 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-3xl mx-auto">
+        <div className="flex flex-row items-center justify-center mb-8">
+          <img
+            src={logo}
+            alt="Sport Track Merger Logo"
+            className="w-15 h-15 rounded-2xl shadow-lg me-5"
+          />
+          <span className="text-2xl font-semibold text-gray-900 dark:text-white">
+            {t("home.title")}
+          </span>
+        </div>
         <h1 className="text-3xl font-bold mb-8 text-center text-gray-900 dark:text-white">
           {t(titleKey)}
         </h1>
