@@ -1,4 +1,4 @@
-import LanguageSelector from "./LanguageSelector";
+import LanguageSelector from "@/components/LanguageSelector";
 
 const Header = () => {
   return (

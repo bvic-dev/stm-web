@@ -1,5 +1,5 @@
 // src/pages/CGV.tsx
-import LegalPage from "../components/LegalPage";
+import LegalPage from "@/components/LegalPage";
 
 export default () => (
   <LegalPage

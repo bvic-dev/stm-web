@@ -1,5 +1,4 @@
 import { useTranslation } from "react-i18next";
-import { useEffect, useState } from "react";
 
 const LanguageSelector = () => {
   const { i18n } = useTranslation();

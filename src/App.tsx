@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import CGU from "./pages/CGU";
-import CGV from "./pages/CGV";
-import PrivacyPolicy from "./pages/PrivacyPolicy";
-import StravaCallbackInfoPage from "./pages/StravaCallbackInfoPage";
-import Header from "./components/Header";
-import GlobalFooter from "./components/GlobalFooter";
-import CookieConsent from "./components/CookieConsent";
+import Home from "@/pages/Home";
+import CGU from "@/pages/CGU";
+import CGV from "@/pages/CGV";
+import PrivacyPolicy from "@/pages/PrivacyPolicy";
+import StravaCallbackInfoPage from "@/pages/StravaCallbackInfoPage";
+import Header from "@/components/Header";
+import GlobalFooter from "@/components/GlobalFooter";
+import CookieConsent from "@/components/CookieConsent";
 import { useState } from "react";
 
 function App() {

@@ -1,10 +1,10 @@
 // src/pages/Home.tsx
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import { getAnalyticsIfConsented } from "../firebase";
+import { getAnalyticsIfConsented } from "@/firebase";
 import { logEvent } from "firebase/analytics";
-import logo from "../assets/Logo-rounded.svg";
-import StoreBadges from '../components/StoreBadges';
+import logo from "@/assets/Logo-rounded.svg";
+import StoreBadges from "@/components/StoreBadges";
 
 const Home = () => {
   const { t } = useTranslation();

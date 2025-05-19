@@ -1,12 +1,12 @@
 import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
-import StoreBadges from '../components/StoreBadges';
-import RetryDeepLinkButton from '../components/RetryDeepLinkButton';
-import { getAnalyticsIfConsented } from "../firebase";
+import StoreBadges from '@/components/StoreBadges';
+import RetryDeepLinkButton from '@/components/RetryDeepLinkButton';
+import { getAnalyticsIfConsented } from "@/firebase";
 import { logEvent } from "firebase/analytics";
 import { useEffect } from "react";
-import screenshotFr from '../assets/auth-callback/screenshot-strava-callback-fr.png';
-import screenshotEn from '../assets/auth-callback/screenshot-strava-callback-en.png';
+import screenshotFr from '@/assets/auth-callback/screenshot-strava-callback-fr.png';
+import screenshotEn from '@/assets/auth-callback/screenshot-strava-callback-en.png';
 
 const StravaCallbackInfoPage = () => {
   const { t, i18n } = useTranslation();

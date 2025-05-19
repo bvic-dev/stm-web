@@ -1,11 +1,11 @@
 import { useEffect } from "react";
-import { getAnalyticsIfConsented } from "../firebase";
+import { getAnalyticsIfConsented } from "@/firebase";
 import { logEvent } from "firebase/analytics";
 import { useTranslation } from "react-i18next";
-import { parseMarkdownLinks } from "../utils/parseMarkdownLinks";
+import { parseMarkdownLinks } from "@/utils/parseMarkdownLinks";
 import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
-import logo from "../assets/Logo-rounded.svg";
+import logo from "@/assets/Logo-rounded.svg";
 
 export type LegalPageProps = {
   titleKey: string;

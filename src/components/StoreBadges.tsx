@@ -1,8 +1,8 @@
 import { useTranslation } from 'react-i18next';
-import badgePlayFr from '../assets/store-badges/GetItOnGooglePlay_Badge_Web_color_French.png';
-import badgePlayEn from '../assets/store-badges/GetItOnGooglePlay_Badge_Web_color_English.png';
-import badgeAppFr from '../assets/store-badges/Download_on_the_App_Store_Badge_FR_RGB_blk_100517.svg';
-import badgeAppEn from '../assets/store-badges/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg';
+import badgePlayFr from '@/assets/store-badges/GetItOnGooglePlay_Badge_Web_color_French.png';
+import badgePlayEn from '@/assets/store-badges/GetItOnGooglePlay_Badge_Web_color_English.png';
+import badgeAppFr from '@/assets/store-badges/Download_on_the_App_Store_Badge_FR_RGB_blk_100517.svg';
+import badgeAppEn from '@/assets/store-badges/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg';
 
 interface StoreBadgesProps {
   className?: string;
