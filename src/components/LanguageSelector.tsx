@@ -3,6 +3,8 @@ import { useTranslation } from "react-i18next";
 const LanguageSelector = () => {
   const { i18n } = useTranslation();
 
+  const currentLang = i18n.language.split("-")[0];
+
   const changeLanguage = (lng: string) => {
     i18n.changeLanguage(lng);
   };
@@ -13,7 +15,7 @@ const LanguageSelector = () => {
         <button
           onClick={() => changeLanguage("fr")}
           className={`px-3 py-1 rounded-md transition-colors cursor-pointer ${
-            i18n.language === "fr"
+            currentLang === "fr"
               ? "bg-blue-500 text-white"
               : "bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200"
           }`}
@@ -23,7 +25,7 @@ const LanguageSelector = () => {
         <button
           onClick={() => changeLanguage("en")}
           className={`px-3 py-1 rounded-md transition-colors cursor-pointer ${
-            i18n.language === "en"
+            currentLang === "en"
               ? "bg-blue-500 text-white"
               : "bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200"
           }`}
