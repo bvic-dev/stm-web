@@ -1,7 +1,19 @@
 RewriteEngine On
 RewriteBase /
+
+# 1. Redirect HTTP to HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# 2. Redirect non-www to www (en https seulement)
+RewriteCond %{HTTP_HOST} ^sporttrackmerger\.com [NC]
+RewriteRule ^ https://www.sporttrackmerger.com%{REQUEST_URI} [L,R=301]
+
+# 3. Page d'accueil index.html reste accessible directement
 RewriteRule ^index\.html$ - [L]
+
+# 4. SPA Fallback (React, Vite...)
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-l
-RewriteRule . /index.html [L] 
+RewriteRule . /index.html [L]
