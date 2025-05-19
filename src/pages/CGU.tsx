@@ -6,5 +6,6 @@ export default () => (
     titleKey="cgu.title"
     lastUpdateKey="cgu.last_update"
     sectionsKey="cgu.sections"
+    canonicalUrl="https://www.sporttrackmerger.com/cgu"
   />
 );

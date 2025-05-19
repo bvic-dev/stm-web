@@ -7,5 +7,6 @@ export default () => (
     titleKey="privacy.title"
     lastUpdateKey="privacy.last_update"
     sectionsKey="privacy.sections"
+    canonicalUrl="https://www.sporttrackmerger.com/privacy"
   />
 );

@@ -1,0 +1,11 @@
+# Allow all user agents (search engines) to crawl the site
+User-agent: *
+
+# Block indexing of the technical Strava callback page
+Disallow: /auth/strava/callback
+
+# Allow everything else
+Allow: /
+
+# Specify the location of the sitemap for better SEO and crawling
+Sitemap: https://www.sporttrackmerger.com/sitemap.xml

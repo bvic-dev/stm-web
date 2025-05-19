@@ -7,5 +7,6 @@ export default () => (
     titleKey="cgv.title"
     lastUpdateKey="cgv.last_update"
     sectionsKey="cgv.sections"
+    canonicalUrl="https://www.sporttrackmerger.com/cgv"
   />
 );
