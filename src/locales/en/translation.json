@@ -282,5 +282,16 @@
     "reason2Text": "Even if the app is installed, your device might not yet recognize that links should open with Sport Track Merger.",
     "retryButton": "Try to open the app again",
     "retryError": "Unable to open the app. Please check if it’s installed."
+  },
+  "cookieConsent": {
+    "title": "Cookie management",
+    "description": "This website uses cookies for audience measurement purposes (Google/Firebase Analytics).",
+    "accept": "Accept",
+    "reject": "Refuse",
+    "learnMore": "Learn more",
+    "manage": "Manage my cookies",
+    "footerLink": "Manage my cookies",
+    "moreInfoTitle": "Privacy and Cookie Policy",
+    "moreInfoText": "We only use audience measurement cookies (Google/Firebase Analytics) to improve the site and understand its usage. No personal data is used for advertising or shared with third parties. You can change your choice at any time by clicking 'Manage my cookies' at the bottom of the page."
   }
 }

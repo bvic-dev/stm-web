@@ -2,8 +2,8 @@ import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 import StoreBadges from '../components/StoreBadges';
 import RetryDeepLinkButton from '../components/RetryDeepLinkButton';
+import { getAnalyticsIfConsented } from "../firebase";
 import { logEvent } from "firebase/analytics";
-import { analytics } from "../firebase";
 import { useEffect } from "react";
 import screenshotFr from '../assets/auth-callback/screenshot-strava-callback-fr.png';
 import screenshotEn from '../assets/auth-callback/screenshot-strava-callback-en.png';
@@ -18,11 +18,14 @@ const StravaCallbackInfoPage = () => {
   const screenshot = currentLang === 'fr' ? screenshotFr : screenshotEn;
 
   useEffect(() => {
-    logEvent(analytics, "page_view", {
-      page_title: "StravaCallbackInfoPage",
-      page_location: window.location.pathname,
-      page_path: window.location.pathname,
-    });
+    const analytics = getAnalyticsIfConsented();
+    if (analytics) {
+      logEvent(analytics, "page_view", {
+        page_title: "StravaCallbackInfoPage",
+        page_location: window.location.pathname,
+        page_path: window.location.pathname,
+      });
+    }
   }, []);
 
   return (
@@ -97,7 +100,7 @@ const StravaCallbackInfoPage = () => {
             className="relative"
             onClick={(e) => e.stopPropagation()}
           >
-            {/* Conteneur image + texte limité à la taille de l’image */}
+            {/* Conteneur image + texte limité à la taille de l'image */}
             <div className="relative max-w-[500px] w-full">
               <img
                 src={screenshot}

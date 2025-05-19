@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { analytics } from "../firebase";
+import { getAnalyticsIfConsented } from "../firebase";
 import { logEvent } from "firebase/analytics";
 import { useTranslation } from "react-i18next";
 import { parseMarkdownLinks } from "../utils/parseMarkdownLinks";
@@ -24,11 +24,14 @@ const LegalPage = ({
   const location = useLocation();
 
   useEffect(() => {
-    logEvent(analytics, "page_view", {
-      page_title: pageTitle,
-      page_location: window.location.pathname,
-      page_path: window.location.pathname,
-    });
+    const analytics = getAnalyticsIfConsented();
+    if (analytics) {
+      logEvent(analytics, "page_view", {
+        page_title: pageTitle,
+        page_location: window.location.pathname,
+        page_path: window.location.pathname,
+      });
+    }
   }, [pageTitle]);
 
   const sections = t(sectionsKey, { returnObjects: true }) as {

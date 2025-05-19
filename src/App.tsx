@@ -6,8 +6,11 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import StravaCallbackInfoPage from "./pages/StravaCallbackInfoPage";
 import Header from "./components/Header";
 import GlobalFooter from "./components/GlobalFooter";
+import CookieConsent from "./components/CookieConsent";
+import { useState } from "react";
 
 function App() {
+  const [cookieOpen, setCookieOpen] = useState(false);
   return (
     <Router>
       <div className="App flex flex-col min-h-screen">
@@ -21,7 +24,8 @@ function App() {
             <Route path="/auth/strava/callback" element={<StravaCallbackInfoPage />} />
           </Routes>
         </main>
-        <GlobalFooter />
+        <GlobalFooter onManageCookies={() => setCookieOpen(true)} />
+        <CookieConsent open={cookieOpen} setOpen={setCookieOpen} />
       </div>
     </Router>
   );

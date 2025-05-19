@@ -13,7 +13,7 @@ const LanguageSelector = () => {
       <div className="flex gap-1">
         <button
           onClick={() => changeLanguage("fr")}
-          className={`px-3 py-1 rounded-md transition-colors ${
+          className={`px-3 py-1 rounded-md transition-colors cursor-pointer ${
             i18n.language === "fr"
               ? "bg-blue-500 text-white"
               : "bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200"
@@ -23,7 +23,7 @@ const LanguageSelector = () => {
         </button>
         <button
           onClick={() => changeLanguage("en")}
-          className={`px-3 py-1 rounded-md transition-colors ${
+          className={`px-3 py-1 rounded-md transition-colors cursor-pointer ${
             i18n.language === "en"
               ? "bg-blue-500 text-white"
               : "bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200"

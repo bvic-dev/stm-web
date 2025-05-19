@@ -35,7 +35,7 @@ const RetryDeepLinkButton = () => {
                 onClick={handleRetry}
                 className="px-4 py-2 rounded-lg font-semibold text-sm shadow transition
                    bg-blue-600 text-white hover:bg-blue-700
-                   dark:bg-blue-800 dark:hover:bg-blue-700 dark:text-white"
+                   dark:bg-blue-800 dark:hover:bg-blue-700 dark:text-white cursor-pointer"
             >
                 {t('stravaCallback.retryButton')}
             </button>

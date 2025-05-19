@@ -1,7 +1,7 @@
 // src/pages/Home.tsx
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import { analytics } from "../firebase";
+import { getAnalyticsIfConsented } from "../firebase";
 import { logEvent } from "firebase/analytics";
 import logo from "../assets/Logo-rounded.svg";
 import StoreBadges from '../components/StoreBadges';
@@ -10,17 +10,23 @@ const Home = () => {
   const { t } = useTranslation();
 
   useEffect(() => {
-    logEvent(analytics, "page_view", {
-      page_title: "Home",
-      page_location: window.location.pathname,
-      page_path: window.location.pathname,
-    });
+    const analytics = getAnalyticsIfConsented();
+    if (analytics) {
+      logEvent(analytics, "page_view", {
+        page_title: "Home",
+        page_location: window.location.pathname,
+        page_path: window.location.pathname,
+      });
+    }
   }, []);
 
   const trackDownloadClick = (platform: string) => {
-    logEvent(analytics, "download_click", {
-      platform: platform,
-    });
+    const analytics = getAnalyticsIfConsented();
+    if (analytics) {
+      logEvent(analytics, "download_click", {
+        platform: platform,
+      });
+    }
   };
 
   return (
