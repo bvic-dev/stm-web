@@ -1,7 +1,6 @@
 name: 🚀 Deploy to OVH
 
-on:
-  workflow_dispatch:
+on: push
 
 jobs:
   deploy:
