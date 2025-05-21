@@ -6,8 +6,6 @@ import badgeAppEn from '@/assets/store-badges/Download_on_the_App_Store_Badge_US
 
 interface StoreBadgesProps {
   className?: string;
-  playStoreUrl?: string;
-  appStoreUrl?: string;
   logoSize?: 'small' | 'large';
   onPlayClick?: () => void;
   onAppClick?: () => void;
@@ -15,18 +13,19 @@ interface StoreBadgesProps {
 
 const StoreBadges = ({
   className = '',
-  playStoreUrl = 'https://play.google.com/store/apps/details?id=com.bvic.sporttrackmerger',
-  appStoreUrl = 'https://apps.apple.com/app/sport-track-merger/id6736858288',
   logoSize = 'large',
   onPlayClick,
   onAppClick,
 }: StoreBadgesProps) => {
   const { i18n } = useTranslation();
-  const isFr = i18n.language === 'fr';
+  const currentLang = i18n.languages[0]
+  const isFr = currentLang === 'fr';
   const badgePlay = isFr ? badgePlayFr : badgePlayEn;
   const badgeApp = isFr ? badgeAppFr : badgeAppEn;
   const logoWidth = logoSize === 'small' ? 'w-37' : 'w-52';
   const logoHeight = logoSize === 'small' ? 'h-10' : 'h-14';
+  const playStoreUrl = 'https://play.google.com/store/apps/details?id=com.bvic.sporttrackmerger';
+  const appStoreUrl = isFr ? 'https://apps.apple.com/fr/app/sport-track-merger/id6736858288' : 'https://apps.apple.com/app/sport-track-merger/id6736858288';
 
   return (
     <div className={`gap-4 ${className}`}>

@@ -11,7 +11,7 @@ import { Helmet } from "react-helmet-async";
 
 const StravaCallbackInfoPage = () => {
   const { t, i18n } = useTranslation();
-  const currentLang = i18n.language;
+  const currentLang = i18n.languages[0];
   const [showLightbox, setShowLightbox] = useState(false);
 
   const steps = [t('stravaCallback.step1'), t('stravaCallback.step2')];
