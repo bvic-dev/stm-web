@@ -32,6 +32,16 @@ const LanguageSelector = () => {
         >
           EN
         </button>
+        <button
+          onClick={() => changeLanguage("de")}
+          className={`px-3 py-1 rounded-md transition-colors cursor-pointer ${
+            currentLang === "de"
+              ? "bg-blue-500 text-white"
+              : "bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200"
+          }`}
+        >
+          DE
+        </button>
       </div>
     </div>
   );
